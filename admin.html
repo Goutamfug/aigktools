@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AigkTool Admin</title>
+<style>
+body{font-family:Arial;background:#eef2ff;padding:30px;text-align:center}
+input{padding:10px;margin:5px;width:250px}
+button{padding:10px 20px;background:black;color:white;border:none}
+</style>
+</head>
+
+<body>
+
+<h2>Add New Tool</h2>
+
+<input id="name" placeholder="Tool Name"><br>
+<input id="desc" placeholder="Description"><br>
+<input id="link" placeholder="Website Link"><br>
+<input id="aff" placeholder="Affiliate Link"><br>
+<input id="cat" placeholder="Category"><br>
+
+<button onclick="addTool()">Add Tool</button>
+
+<p id="msg"></p>
+
+<script src="tools.js"></script>
+
+<script>
+function addTool(){
+let t={
+name:document.getElementById("name").value,
+desc:document.getElementById("desc").value,
+link:document.getElementById("link").value,
+aff:document.getElementById("aff").value,
+cat:document.getElementById("cat").value
+};
+
+tools.push(t);
+document.getElementById("msg").innerText="Tool Added! (tools.js me manually copy karke save karo)";
+}
+</script>
+
+</body>
+</html>

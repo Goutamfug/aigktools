@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AigkTool - AI Tools Directory</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{font-family:Arial;margin:0;background:#f3f5fb}
+header{background:black;color:white;padding:15px;text-align:center;font-size:22px}
+.container{padding:25px;text-align:center}
+.search{padding:10px;width:300px;border-radius:8px;border:1px solid #ccc}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:30px}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1)}
+.btn{background:black;color:white;padding:10px 15px;border-radius:6px;text-decoration:none;display:inline-block;margin-top:10px}
+.aff{background:#0a8f2e}
+</style>
+</head>
+
+<body>
+
+<header>AigkTool - 100+ AI Tools Hub</header>
+
+<div class="container">
+
+<input type="text" id="search" class="search" placeholder="Search AI tool..." onkeyup="searchTool()">
+
+<div id="toolList" class="grid"></div>
+
+</div>
+
+<script src="tools.js"></script>
+
+<script>
+function showTools(data){
+let html="";
+data.forEach(t=>{
+html+=`
+<div class="card">
+<h3>${t.name}</h3>
+<p>${t.desc}</p>
+<a class="btn" href="${t.link}" target="_blank">Open Tool</a><br>
+<a class="btn aff" href="${t.aff}" target="_blank">Get Deal</a>
+</div>`;
+});
+document.getElementById("toolList").innerHTML=html;
+}
+showTools(tools);
+
+function searchTool(){
+let q=document.getElementById("search").value.toLowerCase();
+let filtered=tools.filter(t=>t.name.toLowerCase().includes(q));
+showTools(filtered);
+}
+</script>
+
+</body>
+</html>
