@@ -6,6 +6,30 @@
 <priority>1.0</priority>
 </url>
 
+<!-- Legal Pages -->
+
+<url>
+<loc>https://aigktools.in/privacy.html</loc>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://aigktools.in/about.html</loc>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://aigktools.in/contact.html</loc>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://aigktools.in/disclaimer.html</loc>
+<priority>0.6</priority>
+</url>
+
+<!-- Blog Articles -->
+
 <url>
 <loc>https://aigktools.in/best-ai-tools-for-students.html</loc>
 <priority>0.8</priority>
@@ -37,58 +61,67 @@
 </url>
 
 <url>
-<loc>https://aigktools.in/privacy.html</loc>
-<priority>0.5</priority>
+<loc>https://aigktools.in/how-to-use-ai-tools-for-online-earning.html</loc>
+<priority>0.8</priority>
 </url>
 
-<url>
-<loc>https://aigktools.in/about.html</loc>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://aigktools.in/contact.html</loc>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://aigktools.in/disclaimer.html</loc>
-<priority>0.5</priority>
 <url>
 <loc>https://aigktools.in/best-ai-tools-for-freelancers-2026.html</loc>
 <priority>0.8</priority>
 </url>
-  <url>
+
+<url>
+<loc>https://aigktools.in/top-ai-tools-for-students-2026-guide.html</loc>
+<priority>0.8</priority>
+</url>
+
 <url>
 <loc>https://aigktools.in/best-ai-tools-for-content-creators-2026.html</loc>
 <priority>0.8</priority>
 </url>
-    <url>
+
+<url>
 <loc>https://aigktools.in/best-free-ai-tools-for-instagram-growth-2026.html</loc>
 <priority>0.8</priority>
 </url>
-    <url>
+
+<url>
 <loc>https://aigktools.in/how-beginners-can-earn-money-using-ai-tools-2026.html</loc>
 <priority>0.8</priority>
 </url>
-  <url>
+
+<url>
+<loc>https://aigktools.in/best-ai-tools-for-youtube-automation-2026.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://aigktools.in/best-ai-tools-for-freelancers-2026-guide.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://aigktools.in/best-ai-tools-for-small-business-growth-2026.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
 <loc>https://aigktools.in/best-ai-tools-for-bloggers-2026-guide.html</loc>
 <priority>0.8</priority>
 </url>
+
 <url>
 <loc>https://aigktools.in/best-ai-tools-for-students-study-2026.html</loc>
 <priority>0.8</priority>
 </url>
+
 <url>
 <loc>https://aigktools.in/best-ai-tools-for-social-media-marketing-2026.html</loc>
 <priority>0.8</priority>
-</url>    
-    <url>
-<loc>https://aigktools.in/top-ai-business-ideas-2026.html</loc>
-<priority>0.8</priority>
 </url>
+
 <url>
-<loc>https://aigktools.in/top-ai-tools-for-students-2026-guide.html</loc>
+<loc>https://aigktools.in/top-ai-business-ideas-2026.html</loc>
 <priority>0.8</priority>
 </url>
 
