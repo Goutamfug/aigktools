@@ -23,6 +23,3 @@ cat:"Image"
 
 ];
 
-<a href="best-ai-tools-for-youtube-creators.html">
-Best AI Tools for YouTube Creators in 2026
-</a>
