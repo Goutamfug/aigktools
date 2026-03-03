@@ -20,6 +20,6 @@ link:"https://remove.bg",
 aff:"https://your-affiliate-link.com/removebg",
 cat:"Image"
 }
-
 ];
+
 
